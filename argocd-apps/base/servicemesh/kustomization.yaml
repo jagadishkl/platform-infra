@@ -1,0 +1,5 @@
+resources:
+  - namespace.yaml
+  - https://run.linkerd.io/install | linkerd install --crds
+  - https://run.linkerd.io/install | linkerd install
+
