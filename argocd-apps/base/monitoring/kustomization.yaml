@@ -2,5 +2,5 @@ resources:
   - namespace.yaml
   - prometheus-operator.yaml
   - grafana-deploy.yaml
-  - ../../../../monitoring/node-exporter
+  - ../../../monitoring/node-exporter
 
