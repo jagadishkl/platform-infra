@@ -6,11 +6,11 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/your-org/platform-infra.git
+    repoURL: https://github.com/jagadishkl/platform-infra.git
     targetRevision: HEAD
     path: argocd-apps/base/monitoring
   destination:
-    server: https://kubernetes.default.svc
+    server: https://192.168.56.20:6443
     namespace: monitoring
   syncPolicy:
     automated:
